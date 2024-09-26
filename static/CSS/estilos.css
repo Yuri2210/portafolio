@@ -1,0 +1,83 @@
+/* Tipografías y colores generales */
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f8f9fa;
+    color: #343a40;
+  }
+  
+  h1, h2 {
+    font-family: 'Lora', serif;
+    font-weight: 600;
+    color: #2c3e50;
+  }
+  
+  .section-title {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+  }
+  
+  /* Estilos de contenedor */
+  .container {
+    max-width: 960px;
+    margin: auto;
+  }
+  
+  /* Sección Header */
+  .header {
+    background-color: #2c3e50;
+    color: white;
+  }
+  
+  .header h1 {
+    font-size: 2.5rem;
+  }
+  
+  .header p {
+    font-size: 1.25rem;
+    color: #ecf0f1;
+  }
+  
+  .perfil-img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border: 5px solid white;
+  }
+  
+  /* Estilos de las tarjetas de proyectos */
+  .project-card {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    transition: transform 0.3s;
+  }
+  
+  .project-card:hover {
+    transform: scale(1.05);
+  }
+  
+  /* Sección de habilidades */
+  #skills .bi {
+    font-size: 3rem;
+    color: #2980b9;
+  }
+  
+  /* Formularios */
+  input, textarea {
+    border-radius: 5px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    font-size: 1rem;
+  }
+  
+  /* Footer (si es necesario agregar uno) */
+  footer {
+    background-color: #2c3e50;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+  }
+  
